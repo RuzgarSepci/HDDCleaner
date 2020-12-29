@@ -10,7 +10,7 @@ int main()
     for (i = 1; i <= bytes; i++)
     {
     	fprintf(cleaner, "!");
-	}
+    }
     fclose(cleaner);
     remove("cleaner.txt");
     printf("\nProcess successfully done! Thanks for using HDDCleaner...");
